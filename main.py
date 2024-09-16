@@ -1,3 +1,5 @@
-# Enter code here
-# Read the README for instructions.
-# You must write an algorithm and test cases first!
+total_miles=int(input('Enter the total miles of trip:'))
+miles_per_gallon=int(input('Enter the miles per gallon of car:'))
+price_per_gallon=int(input('Enter the price per gallon:'))
+total_cost=float((total_miles/miles_per_gallon)*price_per_gallon)
+print(total_cost)
